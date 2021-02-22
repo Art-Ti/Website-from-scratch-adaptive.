@@ -35,6 +35,7 @@ a{
     font-weight: 400;
 }
 
+/* menu */
 .header{
     background-image: url('../img/header-bg.jpg');
     height: 100vh;
@@ -89,7 +90,9 @@ header::after{
 .logo{
     padding-top: 17vh;
 }
+/* End menu */
 
+/* About */
 .about__inner{
     display: flex;
 }
@@ -113,7 +116,9 @@ header::after{
 .about__text{
     margin-bottom: 25px;
 }
+/* End About */
 
+/* Video */
 .video{
     background-image: url('../img/video-bg.jpg');
     height: 100vh;
@@ -153,7 +158,9 @@ margin-right: 230px;
     left: 0;
     background-image: url('../img/youtube-btn.svg');
 }
+/* End Video */
 
+/* Seasons */
 .seasons__inner{
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(284px, 1fr));
@@ -214,7 +221,9 @@ margin-right: 230px;
     transition: all .3s;
     z-index: 2;
 }
+/* End Seasons */
 
+/* Heroes */
 .heroes__inner{
     display: flex;
     justify-content: space-between;
@@ -263,11 +272,14 @@ margin-right: 230px;
 .heroes__text p{
     margin-bottom: 15px;    
 }
+/* End Heroes */
 
+/* Footer */
 .copy{
     padding: 14px 0 15px;
     text-align: center;
 }
+/* End Footer */
 
 /* start season-1 */
 
